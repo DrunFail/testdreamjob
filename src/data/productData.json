@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "brand": "Нямушка",
+    "title": "с фуа - гра",
+    "countPortion": 10,
+    "countMouse": "мышь",
+    "weight": 0.5
+  },
+  {
+    "id": 2,
+    "brand": "Нямушка",
+    "title": "с рыбой",
+    "countPortion": 40,
+    "countMouse": "2 мыши",
+    "weight": 2
+  },
+  {
+    "id": 3,
+    "brand": "Нямушка",
+    "title": "с курой",
+    "countPortion": 100,
+    "countMouse": "5 мышей",
+    "weight": 5
+  }
+]

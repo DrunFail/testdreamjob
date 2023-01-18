@@ -1,0 +1,23 @@
+@import '../styles/_colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+.container {
+    width: 1280px;
+    height: 680px;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 36px;
+        color: $white;
+        line-height: 42px;
+        font-family: 'Exo 2', sans-serif;
+        text-align: center;
+        margin-block-start: 36px;
+    }
+    .productList{
+        margin-block-start: 25px;
+        display: grid;
+        grid-column-gap: 80px;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    }
+}
