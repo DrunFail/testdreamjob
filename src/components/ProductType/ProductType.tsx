@@ -2,11 +2,12 @@ import styles from './ProductType.module.scss';
 
 
 interface ProductTypeProps {
-    productType: string
+    productType: string,
+    active: boolean
 }
 
-export default function ProductType({productType }: ProductTypeProps) {
+export default function ProductType({productType, active }: ProductTypeProps) {
     return (
-        <h4 className={styles.type }>{productType}</h4>
+        <h4 className={styles[active ? 'type' : 'none'] }>{productType}</h4>
         );
 }

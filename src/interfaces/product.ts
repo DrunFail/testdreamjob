@@ -4,5 +4,7 @@ export interface Product {
     title: string,
     countPortion: number,
     countMouse: string,
-    weight: number
+    weight: number,
+    selectedMessage: string,
+    active: boolean
 }

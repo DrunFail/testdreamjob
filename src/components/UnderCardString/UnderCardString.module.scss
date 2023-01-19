@@ -13,3 +13,7 @@
         color: $blueSecond;
     }
 }
+.none{
+    @extend .under;
+    color: $yellow;
+}

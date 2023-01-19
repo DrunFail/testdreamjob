@@ -6,6 +6,12 @@
     left: 15.94%;
     font-size: 14px;
     font-weight: 400;
-    width: 106px;
+    width: 100px;
     color: $grey;
+    line-height: 16px;
+}
+.none{
+    @extend .bonus;
+    color: $greySecond;
+    opacity: 0.5;
 }

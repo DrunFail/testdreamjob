@@ -1,8 +1,27 @@
 import styles from './CardHeader.module.scss';
 
 
-export default function CardHeader() {
+interface CardHeaderProps {
+    mouseOut: boolean, 
+    active: boolean
+}
+
+export default function CardHeader({ mouseOut, active }: CardHeaderProps) {
+
+    const setClass = () => {
+        if (!active) {
+            return 'none'
+        }
+        if (mouseOut) {
+            return 'active'
+        }
+        return 'header'
+    }
+
     return (
-        <p className={styles.header }>Сказочное заморское яство</p>
+        <>
+            <p className={styles[setClass()]}>{mouseOut && active ? 'Котэ не одобряет?' : 'Сказочное заморское яство'}</p> 
+            </>
+       
         );
 }

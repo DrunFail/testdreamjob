@@ -9,3 +9,8 @@
     font-weight: 700;
     color: $black;
 }
+.none{
+    @extend .type;
+    color: $greySecond;
+    opacity: 0.5;
+}
