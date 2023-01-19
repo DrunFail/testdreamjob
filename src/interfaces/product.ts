@@ -1,3 +1,9 @@
+export interface HeaderCardMessage {
+    default: string,
+    secondary: string
+}
+
+
 export interface Product {
     id: number,
     brand: string,
@@ -6,5 +12,7 @@ export interface Product {
     countMouse: string,
     weight: number,
     selectedMessage: string,
-    active: boolean
+    active: boolean,
+    header: HeaderCardMessage
+        
 }
