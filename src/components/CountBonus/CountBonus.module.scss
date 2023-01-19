@@ -1,0 +1,11 @@
+@import '../../styles/_colors.scss';
+
+.bonus {
+    position: absolute;
+    top: calc(50% - 32px/2 - 95.5px);
+    left: 15.94%;
+    font-size: 14px;
+    font-weight: 400;
+    width: 106px;
+    color: $grey;
+}

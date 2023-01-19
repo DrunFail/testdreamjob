@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 
 .container {
-    width: 1280px;
+    max-width: 1280px;
     height: 680px;
     margin: 0 auto;
 
-    h1 {
+    & > h1 {
         font-size: 36px;
         color: $white;
         line-height: 42px;
@@ -17,6 +17,7 @@
     .productList{
         margin-block-start: 25px;
         display: grid;
+        justify-items: center;
         grid-column-gap: 80px;
         grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     }
