@@ -1,12 +1,14 @@
+import { HeaderCardMessage } from '../../interfaces/product';
 import styles from './CardHeader.module.scss';
 
 
 interface CardHeaderProps {
     mouseOut: boolean, 
-    active: boolean
+    active: boolean,
+    header: HeaderCardMessage
 }
 
-export default function CardHeader({ mouseOut, active }: CardHeaderProps) {
+export default function CardHeader({ mouseOut, active, header }: CardHeaderProps) {
 
     const setClass = () => {
         if (!active) {
@@ -20,7 +22,7 @@ export default function CardHeader({ mouseOut, active }: CardHeaderProps) {
 
     return (
         <>
-            <p className={styles[setClass()]}>{mouseOut && active ? 'Котэ не одобряет?' : 'Сказочное заморское яство'}</p> 
+            <p className={styles[setClass()]}>{mouseOut && active ? `${header.secondary}` : `${header.default}`}</p> 
             </>
        
         );

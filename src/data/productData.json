@@ -7,7 +7,11 @@
     "countMouse": "мышь",
     "weight": 0.5,
     "selectedMessage": "Печень утки разварная с артишоками.",
-    "active":  true
+    "active": true,
+    "header": {
+      "default": "Сказочное заморское яство",
+      "secondary": "Котэ не одобряет?"
+    }
   },
   {
     "id": 2,
@@ -17,7 +21,11 @@
     "countMouse": "2 мыши",
     "weight": 2,
     "selectedMessage": "Головы щучьи с чесноком да свежайшая семгушка.",
-    "active":  true
+    "active": true,
+    "header": {
+      "default": "Сказочное заморское яство",
+      "secondary": "Котэ не одобряет?"
+    }
   },
   {
     "id": 3,
@@ -27,6 +35,10 @@
     "countMouse": "5 мышей",
     "weight": 5,
     "selectedMessage": "Филе из цыплят с трюфелями в бульоне.",
-    "active": false
+    "active": false,
+    "header": {
+      "default": "Сказочное заморское яство",
+      "secondary": "Котэ не одобряет?"
+    }
   }
 ]
