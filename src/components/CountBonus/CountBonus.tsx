@@ -3,11 +3,12 @@ import styles from './CountBonus.module.scss';
 
 interface CountBonusProps {
     countPortion: number,
-    countMouse: string
+    countMouse: string,
+    active: boolean
 }
 
-export default function CountBonus({ countPortion, countMouse }: CountBonusProps) {
+export default function CountBonus({ countPortion, countMouse, active }: CountBonusProps) {
     return (
-        <p className={styles.bonus }>{countPortion} порций {countMouse} в подарок</p>
+        <p className={styles[active ? 'bonus' : 'none'] }>{countPortion} порций {countMouse} в подарок</p>
         );
 }

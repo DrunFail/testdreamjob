@@ -6,6 +6,17 @@
     top: calc(50% - 19px/2 - 224px);
     left: 15.94%;
     color: $grey;
+    font-size: 16px;
     font-weight: 400;
     line-height: 19px;
+}
+.active{
+    @extend .header;
+    color: $redSecond;
+
+}
+.none{
+    @extend .header;
+    color: $greySecond;
+    opacity: 0.5;
 }

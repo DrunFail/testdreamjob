@@ -23,3 +23,12 @@
         }
     }
 }
+.active{
+    @extend .weight;
+    background-color: $red;
+}
+.none{
+    @extend .weight;
+    background-color: $greySecond;
+    
+}

@@ -5,7 +5,9 @@
     "title": "с фуа - гра",
     "countPortion": 10,
     "countMouse": "мышь",
-    "weight": 0.5
+    "weight": 0.5,
+    "selectedMessage": "Печень утки разварная с артишоками.",
+    "active":  true
   },
   {
     "id": 2,
@@ -13,7 +15,9 @@
     "title": "с рыбой",
     "countPortion": 40,
     "countMouse": "2 мыши",
-    "weight": 2
+    "weight": 2,
+    "selectedMessage": "Головы щучьи с чесноком да свежайшая семгушка.",
+    "active":  true
   },
   {
     "id": 3,
@@ -21,6 +25,8 @@
     "title": "с курой",
     "countPortion": 100,
     "countMouse": "5 мышей",
-    "weight": 5
+    "weight": 5,
+    "selectedMessage": "Филе из цыплят с трюфелями в бульоне.",
+    "active": false
   }
 ]
