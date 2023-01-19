@@ -1,0 +1,11 @@
+@import '../../styles/_colors.scss';
+
+
+.type {
+    position: absolute;
+    top: calc(50% - 28px/2 - 140.5px);
+    left: 15.94%;
+    font-size: 24px;
+    font-weight: 700;
+    color: $black;
+}

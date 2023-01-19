@@ -1,0 +1,15 @@
+@import '../../styles/_colors.scss';
+
+
+.under {
+    margin-block-start: 14px;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: $white;
+
+    & > a {
+        text-decoration-style: dashed;
+        color: $blueSecond;
+    }
+}
