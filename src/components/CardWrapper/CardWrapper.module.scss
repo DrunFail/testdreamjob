@@ -1,0 +1,51 @@
+@import '../../styles/_colors.scss';
+
+
+
+.main {
+    height: 480px;
+    border-radius: 1em;
+    background-color: $white;
+    position: relative;
+    background-image: url('../../assets/image/cat.jpg');
+    clip-path: polygon(0% 32px, 32px 0%, 100% 0%, 100% 100%, 0% 100%);
+    border: 4px solid $blue;
+
+    &::after {
+        position: absolute;
+        top: -26px;
+        left: -26px;
+        content: '';
+        height: 45px;
+        width: 45px;
+        background-color: blue;
+        border-right: 4px solid $blue;
+        transform: rotate(45deg);
+    }
+   
+}
+.active{
+    @extend .main;
+    border-color: $red;
+    &::after{
+        border-color: $red;
+    }
+}
+.none {
+    @extend .main;
+    border-color: $greySecond;
+
+    &::after {
+        border-color: $greySecond;
+    }
+    &::before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        background: white;
+        height: 100%;
+        width: 100%;
+        opacity: 0.5;
+    }
+}

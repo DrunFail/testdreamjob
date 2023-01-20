@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "brand": "Нямушка",
+    "title": "с фуа - гра",
+    "countPortion": 10,
+    "countMouse": "мышь",
+    "weight": 0.5,
+    "selectedMessage": "Печень утки разварная с артишоками.",
+    "active": true,
+    "header": {
+      "default": "Сказочное заморское яство",
+      "secondary": "Котэ не одобряет?"
+    }
+  },
+  {
+    "id": 2,
+    "brand": "Нямушка",
+    "title": "с рыбой",
+    "countPortion": 40,
+    "countMouse": "2 мыши",
+    "weight": 2,
+    "selectedMessage": "Головы щучьи с чесноком да свежайшая семгушка.",
+    "active": true,
+    "header": {
+      "default": "Сказочное заморское яство",
+      "secondary": "Котэ не одобряет?"
+    }
+  },
+  {
+    "id": 3,
+    "brand": "Нямушка",
+    "title": "с курой",
+    "countPortion": 100,
+    "countMouse": "5 мышей",
+    "weight": 5,
+    "selectedMessage": "Филе из цыплят с трюфелями в бульоне.",
+    "active": false,
+    "header": {
+      "default": "Сказочное заморское яство",
+      "secondary": "Котэ не одобряет?"
+    }
+  }
+]

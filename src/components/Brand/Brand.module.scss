@@ -1,0 +1,17 @@
+@import '../../styles/_colors.scss';
+
+
+.name {
+    position: absolute;
+    top: calc(50% - 56px/2 - 181.5px);
+    left: 15%;
+    font-size: 48px;
+    font-weight: 700;
+    color: $black;
+}
+
+.none{
+    @extend .name;
+    color: $greySecond;
+    opacity: 0.5;
+}

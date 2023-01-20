@@ -12,6 +12,14 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\build</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="src\components\" />
+    <Folder Include="src\components\Weight\" />
+    <Folder Include="src\components\UnderCardString\" />
+    <Folder Include="src\components\CardWrapper\" />
+    <Folder Include="src\components\Brand\" />
+    <Folder Include="src\components\ProductType\" />
+    <Folder Include="src\components\CardHeader\" />
+    <Folder Include="src\components\CountBonus\" />
+    <Folder Include="src\data\" />
+    <Folder Include="src\interfaces\" />
   </ItemGroup>
 </Project>
